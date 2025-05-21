@@ -3,6 +3,11 @@
 
 
 // This is where you add the function calculate_hypotenuse
+//pow(x,y) x^y
+float calculate_hypotenuse(float a, float b)
+{
+    return (float)sqrt(pow(a,2)+pow(b,2));
+}
 
 int main() {
     float a = 3.0;
